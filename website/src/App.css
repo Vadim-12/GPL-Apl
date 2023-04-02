@@ -1,0 +1,49 @@
+form {
+  border: 1px solid rgb(166, 166, 166);
+  border-radius: 0.3em;
+  width: 400px;
+  margin: 30px auto;
+  padding: 15px;
+}
+input {
+  width: calc(100% - 10px);
+  height: 25px;
+  font-size: 15px;
+  border-radius: 0.3em;
+  border: 2px solid rgb(79, 79, 79);
+  margin-bottom: 15px;
+  padding-left: 5px;
+}
+.btns {
+  display: flex;
+  width: 100%;
+}
+.btns button {
+  width: calc(50% - 5px);
+  height: 30px;
+  border: none;
+  background-color: orange;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btns button:last-child {
+  margin-left: 10px;
+}
+.container {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.user {
+  border: 1px solid black;
+  border-radius: 3px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.loader {
+  text-align: center;
+}
